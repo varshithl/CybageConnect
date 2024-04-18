@@ -1,0 +1,89 @@
+ <!-- <div className="card" id="cardbody">
+                {friendsArticles.map((blog) => (
+                  <div key={blog.articleId} className="card" id="cards">
+                    <div id="cardPublish">
+                      <div>
+                        <label id="cardinside">Published Date:</label><br />
+                        <p className="card-text" id="cardinside">{blog.publishedDate}</p>
+                      </div>
+                    </div>
+                    <img src={img} className="card-img-top" alt="..." id="cardImg" />
+                    <div className="card-body">
+                      <h5 className="card-title">{blog.article}</h5>
+                      <h5 className="card-title">{blog.userId}</h5>
+                      <h5 className="card-title">{blog.userName}</h5>
+                    </div>
+                    <div className="d-flex justify-content-start align-items-center">
+                      <>
+                        {likedData.map(Element => (
+                          <React.Fragment key={Element.Id}>
+                            {blog.articleId === Element.Id ? (
+                              Element.connectionStatus === 1 ? (
+                                <div className="mr-2">
+                                  <button className="btn btn-outline-danger" onClick={() => unLikePosts(blog.articleId, 0, 0, username)}>
+                                    <i className="bi bi-heart-fill"></i>
+                                  </button></div>
+
+                              ) : (
+                                <div className="mr-2">
+                                  <button className="btn btn-outline-dark" onClick={() => Likeposts(blog.articleId, 0, 0, username)}><i className="bi bi-heart"></i></button></div>
+                              )
+                            ) : ''
+                            }
+
+                          </React.Fragment>
+                        ))}
+                        <span id="point2" onClick={() => LikesList(blog.articleId, 0, 0)}>{blog.likes}</span>
+                        <div className="ml-2">
+                          <button className="btn btn-outline-dark"><i className="bi bi-chat" onClick={() => createComment(blog.articleId, 0, 0)}></i></button>
+                        </div>
+                      </>
+                      <span id="point2" className='p-2' onClick={() => CommentsList(blog.articleId, 0, 0)}>{blog.comments}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>  -->
+
+
+
+             <!-- <div className="card" id="cardbody">
+                {articles.map((blog) => (
+                    <div key={blog.articleId} className="card" id="cards">
+                        <div id="cardPublish">
+                            <div>
+                                <label id="cardinside">Published Date:</label><br />
+                                <p className="card-text" id="cardinside">{blog.publishedDate}</p>
+                            </div>
+                            <button id="edit" className="btn btn-primary" onClick={() => UpdatePostDetails(blog.articleId, "Article")}><i className="bi bi-pencil-square"></i></button>
+                            <button id="delete" className="btn btn-danger" onClick={() => deleteData(blog.articleId, "Article")}><i className="bi bi-trash"></i></button>
+                        </div>
+                        <img src={img} className="card-img-top" alt="..." id="cardImg" />
+                        <div className="card-body">
+                            <h5 className="card-title">{blog.article}</h5>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </center>
+    </> : <div id="MyPosts"><h1>No Articles Found</h1><button className='btn btn-success' onClick={() => NewArticle("Article")}><i className="bi bi-plus-circle"></i> Article</button></div>
+)}  -->
+
+
+
+
+<!-- {/* <div className="card" id="cardbody">
+  {friendsProjects.map((blog) => (
+    <div key={blog.projectInsightId} className="card" id="cards">
+      <div id="cardPublish">
+        <div>
+          <label id="cardinside">Published Date:</label><br />
+          <p className="card-text" id="cardinside">{blog.publishedDateOfProjectInsight}</p>
+        </div>
+      </div>
+      <img src={img} className="card-img-top" alt="..." id="cardImg" />
+      <div className="card-body">
+        <h5 className="card-title">{blog.projectTitle}</h5>
+        <h5 className="card-title">{blog.userId}</h5>
+        <h5 className="card-title">{blog.userName}</h5>
+
+      </div> */} -->
