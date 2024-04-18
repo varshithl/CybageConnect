@@ -1,0 +1,50 @@
+/* @import '../node_modules/mini.css/dist/mini-default.min.css'; */
+.notification-icon {
+    position: relative;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  .notification-container {
+    position: fixed; /* Change to fixed to ensure it stays at the top of the screen */
+    top: 20;
+    right: 0;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0px 16px 16px 0px rgba(15, 13, 13, 0.2);
+    border-radius: 7px;
+    padding: 10px;
+    min-width: 300px;
+}
+
+  
+  .notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .notification-close-icon {
+    cursor: pointer;
+  }
+
+.notification-item {
+    margin-bottom: 10px;
+  }
+  
+  .notification-message {
+    margin-bottom: 5px;
+  }
+  
+  .notification-action-button {
+    margin-right: 10px;
+  }

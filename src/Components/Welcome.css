@@ -1,0 +1,154 @@
+body {
+  background:linear-gradient(to right, #63829e,#b3467c93);
+}
+
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+nav{
+  background:white;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#forsidebar {
+  margin-top: 50px;
+}
+
+#homestats {
+  display: flex;
+  flex-direction: row;
+}
+
+#point {
+  cursor: pointer;
+  
+}
+
+#cards {
+  width: 25rem;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+#cardinside {
+  font-size: 12px;
+}
+
+#cardPublish {
+
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px
+}
+
+#cardbody {
+  width: 25rem
+}
+
+#cardImg {
+  height: 29rem
+}
+
+#mainDiv {
+  margin-top: 70px
+}
+
+#MyPosts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+#edit {
+  width: 3rem;
+  margin-left: 150px
+}
+
+#delete {
+  width: 3rem
+}
+.bloglikes{
+margin-left: 20px;
+}
+
+#search {
+  min-width: 225px;
+  margin-right: 40rem;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* semi-transparent background */
+  z-index: 1000;
+  /* ensure modal is on top of other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  /* shadow effect */
+  z-index: 1100;
+  /* ensure modal content is on top of overlay */
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #555;
+  font-size: 16px;
+}
+
+
+#point2 {
+  cursor: pointer;
+  margin-bottom: 8px;
+  margin-right: 50px;
+  margin-left: 8px;
+}
